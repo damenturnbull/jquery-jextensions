@@ -2,7 +2,7 @@
 A collection of useful $.fn.extend functions
 
 ## $.print
-Console logging using shorthand print method.
+Console logging using shorthand print method. Validates the existence of window.console to avoid complaints from older browsers (here's looking at you IE8).
 
 ```
 $('li').print()
