@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>jExtensions - Change links from http to https</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+  <ul>
+    <li><a href="http://youtube.com">youtube</a></li>
+    <li><a href="http://facebook.com">facebook</a></li>
+    <li><a href="http://twitter.com">twitter</a></li>
+  </ul>
+
+  <script src="js/jquery-1.10.2.js"      type="text/javascript"></script>
+  <script src="js/jquery-jextensions.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    // Change all selectors from http to https
+    $( "a" ).tohttps();
+  </script>
+
+</body>
+</html>

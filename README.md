@@ -20,3 +20,12 @@ Highlight and prove the existence of element selectors by making them glow a dod
 ```
 $('p span').glow()
 ```
+
+## $.tohttps
+Change the href of selected links from http to https.
+
+```
+$('a').tohttps()
+// from this: <a href="http://youtube.com">
+// to this:   <a href="https://youtube.com">
+```
